@@ -1,15 +1,8 @@
 <!-- ============================================================== -->
 <!-- Main wrapper - style you can find in pages.scss -->
 <!-- ============================================================== -->
-<div id="main-wrapper" [ngClass]="{'show-sidebar': showMobileMenu}" 
-    dir="ltr" 
-    data-theme="light"
-    data-layout="vertical" 
-    [attr.data-sidebartype]="sidebartype" 
-    data-sidebar-position="absolute" 
-    data-header-position="fixed" 
-    data-boxed-layout="full"
->
+<div id="main-wrapper" [ngClass]="{'show-sidebar': showMobileMenu}" dir="ltr" data-theme="light" data-layout="vertical" [attr.data-sidebartype]="sidebartype"
+    data-sidebar-position="absolute" data-header-position="fixed" data-boxed-layout="full">
     <!-- ============================================================== -->
     <!-- Topbar header - style you can find in topbar.scss -->
     <!-- ============================================================== -->
@@ -62,7 +55,7 @@
     <aside class="left-sidebar" data-sidebarbg="skin1" (mouseover)="Logo()" (mouseout)="Logo()">
         <!-- Sidebar scroll-->
         <div class="scroll-sidebar">
-            <ap-sidebar></ap-sidebar>
+            <app-sidebar></app-sidebar>
         </div>
         <!-- End Sidebar scroll-->
     </aside>
@@ -101,5 +94,5 @@
     </div>
     <!-- ============================================================== -->
     <!-- End Page wrapper  -->
-    <!-- ============================================================== -->       
+    <!-- ============================================================== -->
 </div>
