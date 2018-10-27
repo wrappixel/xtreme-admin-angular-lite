@@ -1,8 +1,9 @@
 <!-- ============================================================== -->
 <!-- Main wrapper - style you can find in pages.scss -->
 <!-- ============================================================== -->
-<div id="main-wrapper" [ngClass]="{'show-sidebar': showMobileMenu}" dir="ltr" data-theme="light" data-layout="vertical" [attr.data-sidebartype]="sidebartype"
-    data-sidebar-position="absolute" data-header-position="fixed" data-boxed-layout="full">
+<div id="main-wrapper" [ngClass]="{'show-sidebar': showMobileMenu}" dir="ltr" data-theme="light" data-layout="vertical"
+    [attr.data-sidebartype]="sidebartype" data-sidebar-position="absolute" data-header-position="fixed"
+    data-boxed-layout="full">
     <!-- ============================================================== -->
     <!-- Topbar header - style you can find in topbar.scss -->
     <!-- ============================================================== -->
@@ -10,7 +11,8 @@
         <nav class="navbar top-navbar navbar-expand-md navbar-light">
             <div class="navbar-header" [ngClass]="(expandLogo)?'expand-logo':''" data-logobg="skin1">
                 <!-- This is for the sidebar toggle which is visible on mobile only -->
-                <a (click)="showMobileMenu = !showMobileMenu" class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                <a (click)="showMobileMenu = !showMobileMenu" class="nav-toggler waves-effect waves-light d-block d-md-none"
+                    href="javascript:void(0)">
                     <i [ngClass]="(showMobileMenu)?'ti-close':'ti-menu'"></i>
                 </a>
                 <!-- ============================================================== -->
@@ -36,8 +38,9 @@
                 <!-- ============================================================== -->
                 <!-- Toggle which is visible on mobile only -->
                 <!-- ============================================================== -->
-                <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                    data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <i class="ti-more"></i>
                 </a>
             </div>
@@ -45,7 +48,7 @@
             <!-- End Logo -->
             <!-- ============================================================== -->
             <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin6">
-                <ap-navigation (toggleSidebar)="toggleSidebarType()" class="w-100"></ap-navigation>
+                <app-navigation (toggleSidebar)="toggleSidebarType()" class="w-100"></app-navigation>
             </div>
         </nav>
     </header>
