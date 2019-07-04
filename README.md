@@ -1,4 +1,4 @@
-# xtreme-admin-angular-lite
+# xtreme-admin-angular 8 and  7lite
 <a href="https://wrappixel.com/templates/xtreme-angular-6-admin/">Pro Version</a><br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.
 <h4>Check this Repo Live Demo</h4>
