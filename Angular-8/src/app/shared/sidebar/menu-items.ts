@@ -26,6 +26,14 @@ export const ROUTES: RouteInfo[] = [
     submenu: []
   },
   {
+    path: '/component/cards',
+    title: 'Card',
+    icon: 'mdi mdi-blur-radial',
+    class: '',
+    extralink: false,
+    submenu: []
+  },
+  {
     path: '/component/accordion',
     title: 'Accordion',
     icon: 'mdi mdi-equal',
@@ -117,14 +125,6 @@ export const ROUTES: RouteInfo[] = [
     path: '/component/buttons',
     title: 'Button',
     icon: 'mdi mdi-toggle-switch',
-    class: '',
-    extralink: false,
-    submenu: []
-  },
-  {
-    path: '/component/cards',
-    title: 'Card',
-    icon: 'mdi mdi-blur-radial',
     class: '',
     extralink: false,
     submenu: []

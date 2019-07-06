@@ -57,7 +57,7 @@
     <!-- ============================================================== -->
     <aside class="left-sidebar" data-sidebarbg="skin1" (mouseover)="Logo()" (mouseout)="Logo()">
         <!-- Sidebar scroll-->
-        <div class="scroll-sidebar">
+        <div class="scroll-sidebar" [perfectScrollbar]="config"> 
             <app-sidebar></app-sidebar>
         </div>
         <!-- End Sidebar scroll-->
