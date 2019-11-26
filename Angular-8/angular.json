@@ -23,6 +23,7 @@
                             "src/assets"
                         ],
                         "styles": [
+                            "node_modules/chartist/dist/chartist.css",
                             "src/assets/scss/style.scss"
                         ],
                         "scripts": []

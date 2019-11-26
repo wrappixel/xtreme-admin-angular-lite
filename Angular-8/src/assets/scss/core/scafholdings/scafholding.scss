@@ -432,3 +432,120 @@ Labels
 .label-default {
     background-color: $gray-100;
 }
+
+.button-box .btn {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+.feed-widget {
+
+    .feed-body {
+        .feed-item {
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+            &:hover {
+                background: $gray-100;
+            }
+            >.feed-icon {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+                display: inline-block;
+                text-align: center;
+                vertical-align: middle;
+                border-radius: 100%;
+                color: $white;
+                i {
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
+
+/*******************/
+/*Comment widgets*/
+/*******************/
+
+.comment-widgets {
+    position: relative;
+    margin-bottom: 10px;
+    .comment-row {
+        border-bottom:1px solid transparent;
+        padding: 14px;
+        display: flex;
+        margin: 10px 0;
+        &:last-child{
+            border-bottom:0px;
+        }
+        &:hover,
+        &.active {
+            background:$transparent-dark-bg; 
+        }
+    }
+}
+
+.comment-text {
+    padding-left: 15px;
+    width:100%;
+    &:hover .comment-footer,
+    &.active .comment-footer {
+        .action-icons {
+            visibility: visible;
+        }
+    }
+    p {
+        max-height: 65px;
+        width:100%;
+        overflow: hidden;
+        
+    } 
+}
+
+.comment-footer {
+    .action-icons {
+        visibility: hidden;
+        a {
+            padding-left: 7px;
+            vertical-align: middle;
+            color: $gray-500;
+            &:hover,
+            &.active {
+                color: $info;
+            }
+        }
+    }
+}
+
+.campaign {
+  position: relative;
+  .ct-series-a .ct-area {
+    fill: #4fc3f7;
+    fill-opacity: 0.2;
+  }
+  .ct-series-b .ct-area {
+    fill: #7460ee;
+    fill-opacity: 0.1;
+  }
+  .ct-series-a .ct-line,
+  .ct-series-a .ct-point {
+    stroke: #4fc3f7;
+    stroke-width: 2px;
+  }
+  .ct-series-b .ct-line,
+  .ct-series-b .ct-point {
+    stroke: #7460ee;
+    stroke-width: 2px;
+  }
+  .ct-series-a .ct-point,
+  .ct-series-b .ct-point {
+    stroke-width: 6px;
+  }
+}
+
+.linechart {
+  height:250px;
+}
