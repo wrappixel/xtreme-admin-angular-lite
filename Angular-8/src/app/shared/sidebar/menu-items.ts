@@ -128,5 +128,13 @@ export const ROUTES: RouteInfo[] = [
     class: '',
     extralink: false,
     submenu: []
+  },
+  {
+    path: '/component/toast',
+    title: 'Toast',
+    icon: 'mdi mdi-alert',
+    class: '',
+    extralink: false,
+    submenu: []
   }
 ];
