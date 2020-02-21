@@ -69,7 +69,7 @@
             display: block;
         }
         .form-control {
-            padding: 23px 40px 20px 23px;
+            padding: 32px 40px 32px 23px;
             @extend %square;
             transition: $transitions;
             &:focus {
