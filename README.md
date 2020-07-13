@@ -1,4 +1,4 @@
-# xtreme-admin-angular 9, 8 and  7 lite
+# xtreme-admin-angular 10, 9, 8 and 7 lite
 
 <h4><a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/starter">Free Version Demo Link</a></h4>
 
@@ -7,7 +7,6 @@
 <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/"><img src="https://www.wrappixel.com/wp-content/uploads/2019/01/xtreme-admin-angular-nw-1.jpg"/></a><br/>
 
 <h4><a href="https://www.wrappixel.com/demos/angular-admin-templates/xtreme-angular/main/dashboard/classic">Demo</a></h4>
-
 
 ## Development server
 
