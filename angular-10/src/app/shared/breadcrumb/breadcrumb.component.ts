@@ -1,15 +1,18 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { Router, NavigationEnd, ActivatedRoute, Data } from '@angular/router';
 import { filter, map, mergeMap } from 'rxjs/operators';
+import { Observer } from 'rxjs';
+
+
+
 
 @Component({
   selector: 'app-breadcrumb',
   templateUrl: './breadcrumb.component.html'
 })
 export class BreadcrumbComponent implements OnInit {
-  @Input() layout;
-  pageInfo;
+  pageInfo:Data=Object.create(null);
   constructor(
     private router: Router,
     private activatedRoute: ActivatedRoute,
@@ -28,7 +31,8 @@ export class BreadcrumbComponent implements OnInit {
       )
       .pipe(filter(route => route.outlet === 'primary'))
       .pipe(mergeMap(route => route.data))
-      .subscribe(event => {
+      .subscribe((event:Data) => {
+        debugger;
         this.titleService.setTitle(event['title']);
         this.pageInfo = event;
       });

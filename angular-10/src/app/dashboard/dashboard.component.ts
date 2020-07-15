@@ -1,5 +1,5 @@
 import { Component, AfterViewInit } from '@angular/core';
-declare var require: any;
+//declare var require: any;
 
 @Component({
   templateUrl: './dashboard.component.html'
@@ -14,7 +14,7 @@ export class DashboardComponent implements AfterViewInit {
     { data: [0, 5, 6, 8, 25, 9, 8, 24], label: 'Iphone'},
     { data: [0, 3, 1, 2, 8, 1, 5, 1], label: 'Ipad' }
   ];
-  public lineChartLabels: Array<any> = [
+  public lineChartLabels: Array<string> = [
     '1',
     '2',
     '3',
@@ -24,11 +24,11 @@ export class DashboardComponent implements AfterViewInit {
     '7',
     '8',
   ];
-  public lineChartOptions: any = {
+  public lineChartOptions = {
     responsive: true,
     maintainAspectRatio: false
   };
-  public lineChartColors: Array<any> = [
+  public lineChartColors: Array<Object> = [
     {
       // grey
       backgroundColor: 'rgba(41, 98, 255,0.1)',

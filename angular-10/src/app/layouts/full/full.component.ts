@@ -2,7 +2,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
-declare var $: any;
+//declare var $: any;
 
 @Component({
   selector: 'app-full-layout',
@@ -15,8 +15,8 @@ export class FullComponent implements OnInit {
 
   	constructor(public router: Router) {}
 
-	public innerWidth: any;
-	public defaultSidebar: any;
+	public innerWidth: number=0;
+	public defaultSidebar: string='';
 	public showMobileMenu = false;
 	public expandLogo = false;
 	public sidebartype = 'full';
@@ -34,7 +34,7 @@ export class FullComponent implements OnInit {
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize(event) {
+  onResize() {
     this.handleSidebar();
   }
 
