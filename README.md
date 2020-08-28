@@ -89,8 +89,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   Live Demo: <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/dashboard" rel="nofollow">https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/dashboard</a>
 </li>
 <li>
-    Download Page: <a href="#" rel="nofollow">
-  We will Update soon</a>
+    Download Page: <a href="https://www.wrappixel.com/templates/xtreme-angular-lite/" rel="nofollow">
+  https://www.wrappixel.com/templates/xtreme-angular-lite/</a>
 </li>
 <li>
     <a href="https://www.wrappixel.com/templates/wrapkit/#demos" rel="nofollow">WrapKit </a>Complete UI Kit - For Website Projects
