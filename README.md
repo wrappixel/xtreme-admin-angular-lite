@@ -11,7 +11,10 @@
 
 <!-- Description of Template -->
 <p>
- Lorem ipsume
+ Are you looking out for an interesting <a href="https://www.wrappixel.com/templates/category/angular-templates/">free angular modular design admin template</a> that offers elegant colors, a sense of personal touch with ready-to-go customization options? Xtreme Angular Admin Lite is superbly versatile with its unique modular design, flexibility and offers fully responsive pages. Apart from that, it is extremely useful for personal as well as commercial projects. Some of the features like mini sidebar version, page templates, UI components, widgets, elements make it even more special.This admin dashboard template free download is very handy in saving your valuable time all at once. For commercial projects work, there’s a premium version that comes with a bundle of a wide range of features, components, elements, widgets, and essential tools.
+</p>
+<p>
+  This admin dashboard template free download is very handy in saving your valuable time all at once. For commercial projects work, there’s a premium version that comes with a bundle of a wide range of features, components, elements, widgets, and essential tools.
 </p>
 
 <!-- <h4><a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/starter">Free Version Demo Link</a></h4> -->
