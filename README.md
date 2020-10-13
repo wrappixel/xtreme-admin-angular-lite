@@ -11,7 +11,10 @@
 
 <!-- Description of Template -->
 <p>
- Lorem ipsume
+ Are you looking out for an interesting <a href="https://www.wrappixel.com/templates/category/angular-templates/">free angular modular design admin template</a> that offers elegant colors, a sense of personal touch with ready-to-go customization options? Xtreme Angular Admin Lite is superbly versatile with its unique modular design, flexibility and offers fully responsive pages. Apart from that, it is extremely useful for personal as well as commercial projects. Some of the features like mini sidebar version, page templates, UI components, widgets, elements make it even more special.This admin dashboard template free download is very handy in saving your valuable time all at once. For commercial projects work, there’s a premium version that comes with a bundle of a wide range of features, components, elements, widgets, and essential tools.
+</p>
+<p>
+  This admin dashboard template free download is very handy in saving your valuable time all at once. For commercial projects work, there’s a premium version that comes with a bundle of a wide range of features, components, elements, widgets, and essential tools.
 </p>
 
 <!-- <h4><a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/starter">Free Version Demo Link</a></h4> -->
@@ -122,12 +125,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <!-- Useful Links of Template -->
 <h2>Useful Links</h2>
 <ul>
-<li><a href="https://www.wrappixel.com" rel="nofollow">Bootstrap Templates</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/react-templates/" rel="nofollow">React Templates</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/" rel="nofollow">Vue Templates</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/angular-templates/" rel="nofollow">Angular Templates</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/free-templates/" rel="nofollow">Freebies</a> from Wrappixel</li>
-<li><a href="https://www.wrappixel.com/affiliate-area/" rel="nofollow">Affiliate Program</a></li>
+<li><a href="https://www.wrappixel.com/templates/category/admin-template/">Free Admin Templates</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/">Bootstrap Templates</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">Bootstrap 4 Dashboard</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/angular-templates/">Angular Material Template</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/react-templates/">React Templates</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue Templates</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/free-templates/">Free Website Templates</a> from WrapPixel</li>
 </ul>
 
 <!-- Social Media of Wrappixel -->
