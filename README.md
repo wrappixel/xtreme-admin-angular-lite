@@ -1,7 +1,7 @@
-<!-- # xtreme-admin-angular 10, 9, 8 and 7 lite -->
+<!-- # xtreme-admin-angular 11, 10, 9, 8 and 7 lite -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/dashboard">Xtreme Angular 10 Admin Lite</a>
+  <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/dashboard">Xtreme Angular 11Admin Lite</a>
 </h1>
 
 <!-- Main image of Template -->
