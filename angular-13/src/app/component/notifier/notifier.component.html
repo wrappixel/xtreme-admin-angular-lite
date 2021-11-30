@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-body">
+				<h4>Show notifications</h4>
+				<div class="button-group">
+						<button class="btn btn-primary" (click)="showNotification( 'default', 'Good evening, you lovely person!' )">
+							Default me!
+						</button>
+						<button class="btn btn-info" (click)="showNotification( 'info', 'This library is built on top of Angular 2.' )">
+									Info me!
+								</button>
+						<button class="btn btn-success" (click)="showNotification( 'success', 'Notification successfully opened.' )">
+									Success me!
+								</button>
+						<button class="btn btn-warning" (click)="showNotification( 'warning', 'Warning! But not an error! Just a warning!' )">
+									Warning me!
+								</button>
+						<button class="btn btn-danger" (click)="showNotification( 'error', 'Whoops, something went wrong. Probably.' )">
+									Error me!
+								</button>	
+					</div>
+			</div> 
+		</div>	
+	</div>	
+</div>	
+<notifier-container></notifier-container>

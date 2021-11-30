@@ -1,0 +1,213 @@
+<div class="row">
+  <!-- ==================================-->
+  <!-- ======= Basic Progressbar ===== -->
+  <!-- ==================================-->
+  <div class="col-12">
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Basic Progressbar</h4>
+      </div>
+      <div class="card-body border-top">
+        <p><ngb-progressbar type="success" [value]="25"></ngb-progressbar></p>
+        <p><ngb-progressbar type="info" [value]="50"></ngb-progressbar></p>
+        <p>
+          <ngb-progressbar
+            type="primary"
+            [value]="150"
+            [max]="200"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            type="inverse"
+            [value]="150"
+            [max]="150"
+          ></ngb-progressbar>
+        </p>
+        <p><ngb-progressbar type="warning" [value]="75"></ngb-progressbar></p>
+        <p><ngb-progressbar type="danger" [value]="100"></ngb-progressbar></p>
+      </div>
+    </div>
+  </div>
+  <!-- ==================================-->
+  <!-- ======= Progress bars with current value labels ===== -->
+  <!-- ==================================-->
+  <div class="col-12">
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Progress bars with current value labels</h4>
+      </div>
+      <div class="card-body border-top">
+        <p>
+          <ngb-progressbar
+            showValue="true"
+            type="success"
+            [value]="25"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            [showValue]="true"
+            type="info"
+            [value]="50"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            showValue="true"
+            type="primary"
+            [value]="150"
+            [max]="200"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            [showValue]="true"
+            type="inverse"
+            [value]="150"
+            [max]="150"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            showValue="true"
+            type="warning"
+            [value]="150"
+            [max]="200"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            [showValue]="true"
+            type="danger"
+            [value]="150"
+            [max]="150"
+          ></ngb-progressbar>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- ==================================-->
+  <!-- ======= Striped progress bars ===== -->
+  <!-- ==================================-->
+  <div class="col-12">
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Striped progress bars</h4>
+      </div>
+      <div class="card-body border-top">
+        <p>
+          <ngb-progressbar
+            type="success"
+            [value]="25"
+            [striped]="true"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            type="info"
+            [value]="50"
+            [striped]="true"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            type="warning"
+            [value]="75"
+            [striped]="true"
+          ></ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar
+            type="danger"
+            [value]="100"
+            [striped]="true"
+          ></ngb-progressbar>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- ==================================-->
+  <!-- ======= Progress bars with custom labels ===== -->
+  <!-- ==================================-->
+  <div class="col-12">
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Progress bars with custom labels</h4>
+      </div>
+      <div class="card-body border-top">
+        <p><ngb-progressbar type="success" [value]="25">25</ngb-progressbar></p>
+        <p>
+          <ngb-progressbar type="info" [value]="50"
+            >Copying file <b>2 of 4</b>...</ngb-progressbar
+          >
+        </p>
+        <p>
+          <ngb-progressbar
+            type="warning"
+            [value]="75"
+            [striped]="true"
+            [animated]="true"
+            ><i>50%</i></ngb-progressbar
+          >
+        </p>
+        <p>
+          <ngb-progressbar type="danger" [value]="100" [striped]="true"
+            >Completed!</ngb-progressbar
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- ==================================-->
+  <!-- ======= Progress bars with heights ===== -->
+  <!-- ==================================-->
+  <div class="col-md-12">
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Progress bars with heights</h4>
+      </div>
+      <div class="card-body border-top">
+        <p>
+          <ngb-progressbar type="success" [value]="25">default</ngb-progressbar>
+        </p>
+        <p>
+          <ngb-progressbar type="info" [value]="50" height="10px"
+            >10px</ngb-progressbar
+          >
+        </p>
+        <p>
+          <ngb-progressbar type="warning" [value]="75" height=".5rem"
+            >.5rem</ngb-progressbar
+          >
+        </p>
+        <p>
+          <ngb-progressbar type="danger" [value]="100" [height]="height">{{
+            height
+          }}</ngb-progressbar>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- ==================================-->
+  <!-- ======= Global configuration of progress bars ===== -->
+  <!-- ==================================-->
+  <div class="col-md-12">
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Global configuration of progress bars</h4>
+      </div>
+      <div class="card-body border-top">
+        
+        <p>This progress bar uses the customized default values.</p>
+        <p><ngb-progressbar value="250"></ngb-progressbar></p>
+
+        <p>
+          This progress bar uses the customized default values, but changes the
+          type using an input.
+        </p>
+        <p><ngb-progressbar value="500" type="info"></ngb-progressbar></p>
+      </div>
+    </div>
+  </div>
+</div>

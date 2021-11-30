@@ -1,0 +1,323 @@
+<div class="row">
+  <div class="col-lg-6 d-flex align-items-stretch">
+    <!-- ==================================-->
+    <!-- ========== Basic Alert ========== -->
+    <!-- ==================================-->
+    <div class="card w-100">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Basic Alert</h4>
+      </div>
+      <div class="card-body border-top">
+        <p *ngFor="let alert of alerts">
+          <ngb-alert [type]="alert.type" [dismissible]="false" class="customize-alert fs-5">
+            {{ alert.type }} - {{ alert.message }}
+          </ngb-alert>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 d-flex align-items-stretch">
+    <!-- ==================================-->
+    <!-- ======== Closable Alert ========= -->
+    <!-- ==================================-->
+    <div class="card w-100">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Notify Alerts</h4>
+      </div>
+      <div class="card-body border-top">
+        <ngb-alert type="light-primary" [dismissible]="false" class="customize-alert text-primary d-flex align-items-center fs-5">
+          <span class="side-line bg-primary"></span>
+          <div class="font-medium">A Primary light alert</div>
+          <div class="ms-auto">
+            <a href="javascript:void(0)" class="text-primary"><i-feather class="feather-sm" name="trash-2"></i-feather></a>
+            <a href="javascript:void(0)" class="text-primary"><i-feather class="feather-sm ms-2" name="settings"></i-feather></a>
+          </div>
+        </ngb-alert>
+        <ngb-alert type="light-secondary" [dismissible]="false" class="customize-alert text-secondary d-flex align-items-center fs-5">
+          <span class="side-line bg-secondary"></span>
+          <div class="font-medium">A Secondary light alert</div>
+          <div class="ms-auto">
+            <a href="javascript:void(0)" class="text-secondary"><i-feather class="feather-sm" name="trash-2"></i-feather></a>
+            <a href="javascript:void(0)" class="text-secondary"><i-feather class="feather-sm ms-2" name="settings"></i-feather></a>
+          </div>
+        </ngb-alert>
+        <ngb-alert type="light-success" [dismissible]="false" class="customize-alert text-success d-flex align-items-center fs-5">
+          <span class="side-line bg-success"></span>
+          <div class="font-medium">A Success light alert</div>
+          <div class="ms-auto">
+            <a href="javascript:void(0)" class="text-success"><i-feather class="feather-sm" name="trash-2"></i-feather></a>
+            <a href="javascript:void(0)" class="text-success"><i-feather class="feather-sm ms-2" name="settings"></i-feather></a>
+          </div>
+        </ngb-alert>
+        <ngb-alert type="light-warning" [dismissible]="false" class="customize-alert text-warning d-flex align-items-center fs-5">
+          <span class="side-line bg-warning"></span>
+          <div class="font-medium">A Warning light alert</div>
+          <div class="ms-auto">
+            <a href="javascript:void(0)" class="text-warning"><i-feather class="feather-sm" name="trash-2"></i-feather></a>
+            <a href="javascript:void(0)" class="text-warning"><i-feather class="feather-sm ms-2" name="settings"></i-feather></a>
+          </div>
+        </ngb-alert>
+        
+        <ngb-alert type="light-danger" [dismissible]="false" class="customize-alert text-danger d-flex align-items-center fs-5">
+          <span class="side-line bg-danger"></span>
+          <div class="font-medium">A Danger light alert</div>
+          <div class="ms-auto">
+            <a href="javascript:void(0)" class="text-danger"><i-feather class="feather-sm" name="trash-2"></i-feather></a>
+            <a href="javascript:void(0)" class="text-danger"><i-feather class="feather-sm ms-2" name="settings"></i-feather></a>
+          </div>
+        </ngb-alert>
+        <ngb-alert type="light-info" [dismissible]="false" class="customize-alert text-info d-flex align-items-center fs-5">
+          <span class="side-line bg-info"></span>
+          <div class="font-medium">A Info light alert</div>
+          <div class="ms-auto">
+            <a href="javascript:void(0)" class="text-info"><i-feather class="feather-sm" name="trash-2"></i-feather></a>
+            <a href="javascript:void(0)" class="text-info"><i-feather class="feather-sm ms-2" name="settings"></i-feather></a>
+          </div>
+        </ngb-alert>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <!-- ==================================-->
+    <!-- ======== Light Alert ========= -->
+    <!-- ==================================-->
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Light Alert</h4>
+      </div>
+      <div class="card-body border-top">
+        <ngb-alert
+          type="light-primary"
+          class="text-primary d-flex align-items-center fs-5"
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple primary light alert
+        </ngb-alert>
+        <ngb-alert
+          type="light-secondary"
+          class="text-secondary d-flex align-items-center fs-5"
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple secondary light alert
+        </ngb-alert>
+        <ngb-alert
+          type="light-success"
+          class="text-success d-flex align-items-center fs-5"
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple success light alert
+        </ngb-alert>
+        <ngb-alert
+          type="light-danger"
+          class="text-danger d-flex align-items-center fs-5"
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple danger light alert
+        </ngb-alert>
+        <ngb-alert
+          type="light-warning"
+          class="text-warning d-flex align-items-center fs-5"
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple warning light alert
+        </ngb-alert>
+        <ngb-alert
+          type="light-info"
+          class="text-info d-flex align-items-center fs-5"
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple info light alert
+        </ngb-alert>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <!-- ==================================-->
+    <!-- ======== Outline Alert ========= -->
+    <!-- ==================================-->
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Outline Alert</h4>
+      </div>
+      <div class="card-body border-top">
+        <ngb-alert
+          class="
+            bg-transparent
+            border-primary border
+            text-primary
+            d-flex
+            align-items-center
+            fs-5
+          "
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple primary light alert
+        </ngb-alert>
+        <ngb-alert
+          class="
+            bg-transparent
+            border-secondary border
+            text-secondary
+            d-flex
+            align-items-center
+            fs-5
+          "
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple secondary light alert
+        </ngb-alert>
+        <ngb-alert
+          class="
+            bg-transparent
+            border-success border
+            text-success
+            d-flex
+            align-items-center
+            fs-5
+          "
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple success light alert
+        </ngb-alert>
+        <ngb-alert
+          class="
+            bg-transparent
+            border-danger border
+            text-danger
+            d-flex
+            align-items-center
+            fs-5
+          "
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple danger light alert
+        </ngb-alert>
+        <ngb-alert
+          class="
+            bg-transparent
+            border-warning border
+            text-warning
+            d-flex
+            align-items-center
+            fs-5
+          "
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple warning light alert
+        </ngb-alert>
+        <ngb-alert
+          class="
+            bg-transparent
+            border-info border
+            text-info
+            d-flex
+            align-items-center
+            fs-5
+          "
+        >
+          <i-feather
+            name="Info"
+            class="feather-sm flex-shrink-0 d-flex me-2"
+          ></i-feather>
+          A simple info light alert
+        </ngb-alert>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12">
+    <!-- ==================================-->
+    <!-- ======= Self Closable Alert ===== -->
+    <!-- ==================================-->
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Self Closing Alert</h4>
+      </div>
+      <div class="card-body border-top">
+        <h6 class="card-subtitle fw-normal mb-3">
+          Static self-closing alert that disappears after 20 seconds (refresh
+          the page if it has already disappeared)
+        </h6>
+        <ngb-alert type="light-info" class="text-info font-medium fs-5" *ngIf="!staticAlertClosed" (close)="staticAlertClosed = true"
+          >Check out our awesome new features!</ngb-alert
+        >
+        <p>
+          Show a self-closing success message that disappears after 5 seconds.
+        </p>
+        <ngb-alert
+          *ngIf="successMessage"
+          type="light-success" class="text-success font-medium fs-5"
+          (close)="successMessage = null"
+          >{{ successMessage }}</ngb-alert
+        >
+        <p>
+          <button class="btn btn-primary" (click)="changeSuccessMessage()">
+            Change message
+          </button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12">
+    <!-- ==================================-->
+    <!-- ======= Custom Alert ===== -->
+    <!-- ==================================-->
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Custom Alert</h4>
+      </div>
+      <div class="card-body border-top">
+        <ngb-alert type="custom" [dismissible]="false"
+          ><strong>Whoa!</strong> This is a custom alert.</ngb-alert
+        >
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Global Configuration of Alert</h4>
+      </div>
+      <div class="card-body border-top">
+        <p>
+          <ngb-alert type="light-secondary" class="text-secondary font-medium fs-5">
+            This alert's type is success and it's not dismissible because the
+            config has been customized
+          </ngb-alert>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

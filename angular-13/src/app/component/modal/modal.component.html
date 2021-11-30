@@ -1,0 +1,798 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Basic Modal</h4>
+      </div>
+      <div class="card-body border-top">
+        <!-- modal 1 -->
+        <ng-template #modalBasic let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Basic Modal</h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+        <!-- modal 2 -->
+        <ng-template #modalCenter let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">
+              Vertically Center Modal
+            </h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+        <!-- modal 3 -->
+        <ng-template #modalBackdrop let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">
+              Disabled Backdrop Modal
+            </h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+        <div class="button-group">
+          <!-- btn 1 -->
+          <button
+            class="btn btn-light-primary text-primary fs-4 font-medium"
+            (click)="modalOpen(modalBasic)"
+          >
+            Basic Modal
+          </button>
+          <!-- btn 2 -->
+          <button
+            class="btn btn-light-warning text-warning fs-4 font-medium"
+            (click)="modalOpenVC(modalCenter)"
+          >
+            Vertically Center Modal
+          </button>
+          <!-- btn 3 -->
+          <button
+            class="btn btn-light-secondary text-secondary fs-4 font-medium"
+            (click)="modalOpenBackdrop(modalBackdrop)"
+          >
+            Disabled Backdrop Modal
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Modal Colored</h4>
+      </div>
+      <div class="card-body border-top">
+        <div class="button-group">
+          <!-- btn 1 -->
+          <button
+            class="btn btn-light-primary text-primary fs-4 font-medium"
+            (click)="modalPOpen(modalPrimary)"
+          >
+            Primary Modal
+          </button>
+          <!-- btn 2 -->
+          <button
+            class="btn btn-light-info text-info fs-4 font-medium"
+            (click)="modalIOpen(modalInfo)"
+          >
+            Info Modal
+          </button>
+          <!-- btn 3 -->
+          <button
+            class="btn btn-light-success text-success fs-4 font-medium"
+            (click)="modalSOpen(modalSuccess)"
+          >
+            Success Modal
+          </button>
+          <!-- btn 4 -->
+          <button
+            class="btn btn-light-danger text-danger fs-4 font-medium"
+            (click)="modalDOpen(modalDanger)"
+          >
+            Danger Modal
+          </button>
+          <!-- btn 5 -->
+          <button
+            class="btn btn-light-warning text-warning fs-4 font-medium"
+            (click)="modalDOpen(modalWarning)"
+          >
+            Warning Modal
+          </button>
+        </div>
+
+        <!-- modal 1 -->
+        <ng-template #modalPrimary let-modal>
+          <div class="modal-header bg-light-primary">
+            <h4 class="modal-title text-primary" id="modal-Primary-title">
+              Primary Modal
+            </h4>
+            <button
+              type="button"
+              class="btn text-primary close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+
+        <!-- modal 2 -->
+        <ng-template #modalInfo let-modal>
+          <div class="modal-header bg-light-info">
+            <h4 class="modal-title text-info" id="modal-info-title">
+              Info Modal
+            </h4>
+            <button
+              type="button"
+              class="btn text-info close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-info"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+
+        <!-- modal 3 -->
+        <ng-template #modalSuccess let-modal>
+          <div class="modal-header bg-light-success">
+            <h4 class="modal-title text-success" id="modal-success-title">
+              Success Modal
+            </h4>
+            <button
+              type="button"
+              class="btn text-success close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-success"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+
+        <!-- modal 4 -->
+        <ng-template #modalDanger let-modal>
+          <div class="modal-header bg-light-danger">
+            <h4 class="modal-title text-danger" id="modal-danger-title">
+              Danger Modal
+            </h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+
+        <!-- modal 5 -->
+        <ng-template #modalWarning let-modal>
+          <div class="modal-header bg-light-warning">
+            <h4 class="modal-title text-warning" id="modal-warning-title">
+              Warning Modal
+            </h4>
+            <button
+              type="button"
+              class="btn text-warning close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-warning"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Modal Sizes</h4>
+      </div>
+      <div class="card-body border-top">
+        <div class="button-group">
+          <!-- btn 1 -->
+          <button
+            class="btn btn-light-danger text-danger fs-4 font-medium"
+            (click)="modalOpensm(modalSmall)"
+          >
+            Small Modal
+          </button>
+          <!-- btn 2 -->
+          <button
+            class="btn btn-light-info text-info fs-4 font-medium"
+            (click)="modalOpenmd(modalMedium)"
+          >
+            Medium Modal
+          </button>
+          <!-- btn 3 -->
+          <button
+            class="btn btn-light-primary text-primary fs-4 font-medium"
+            (click)="modalOpenlg(modalLarge)"
+          >
+            Large Modal
+          </button>
+        </div>
+        <!-- modal 1 -->
+        <ng-template #modalSmall let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Small Modal</h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+        <!-- modal 2 -->
+        <ng-template #modalMedium let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Medium Modal</h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+        <!-- modal 3 -->
+        <ng-template #modalLarge let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Large Modal</h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Form & Scrolling Modals</h4>
+      </div>
+      <div class="card-body border-top">
+        <div class="button-group">
+          <!-- btn 1 -->
+          <button
+            class="btn btn-light-success text-success fs-4 font-medium"
+            (click)="modalOpenLogin(modalLogin)"
+          >
+            Login Form
+          </button>
+          <!-- btn 2 -->
+          <button
+            class="btn btn-light-info text-info fs-4 font-medium"
+            (click)="modalOpenRegiser(modalRegiser)"
+          >
+            Regiser Form
+          </button>
+          <!-- btn 3 -->
+          <button
+            class="btn btn-light-warning text-warning fs-4 font-medium"
+            (click)="modalOpenScrollLong(modalScrollLong)"
+          >
+            Scrolling Long Content
+          </button>
+          <!-- btn 4 -->
+          <button
+            class="btn btn-light-primary text-primary fs-4 font-medium"
+            (click)="modalOpenScrollLongInside(modalScrollLongInside)"
+          >
+            Scrolling Content Inside Modal
+          </button>
+          
+        </div>
+        <!-- modal 1 -->
+        <ng-template #modalLogin let-modal>
+          <form>
+            <div class="modal-header justify-content-center mt-2">
+              <a href="index.html">
+                <span
+                  ><img
+                    class="me-2"
+                    src="assets/images/logos/xtreme-dark-icon.svg"
+                    alt="" /><img
+                    src="assets/images/logo-text.png"
+                    alt=""
+                    height="18"
+                /></span>
+              </a>
+            </div>
+            <div class="modal-body px-4">
+              <div class="mb-3">
+                <label for="emailaddress1">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="emailaddress1"
+                  required=""
+                  placeholder="john@deo.com"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="password1">Password</label>
+                <input
+                  class="form-control"
+                  type="password"
+                  required=""
+                  id="password1"
+                  placeholder="Enter your password"
+                />
+              </div>
+
+              <div class="mb-3">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="customCheck2"
+                  />
+                  <label class="form-check-label" for="customCheck2"
+                    >Remember me</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button
+                class="btn btn-light-info text-info font-medium"
+                type="submit"
+                (click)="modal.dismiss('Cross click')"
+              >
+                Sign In
+              </button>
+            </div>
+          </form>
+        </ng-template>
+        <!-- modal 2 -->
+        <ng-template #modalRegiser let-modal>
+          <form>
+            <div class="modal-header justify-content-center mt-2">
+              <a href="index.html">
+                <span
+                  ><img
+                    class="me-2"
+                    src="assets/images/logos/xtreme-dark-icon.svg"
+                    alt="" /><img
+                    src="assets/images/logo-text.png"
+                    alt=""
+                    height="18"
+                /></span>
+              </a>
+            </div>
+            <div class="modal-body px-4">
+              <div class="mb-3">
+                <label for="username">Name</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="username"
+                  required=""
+                  placeholder="Michael Zenaty"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="emailaddress">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="emailaddress"
+                  required=""
+                  placeholder="john@deo.com"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="password">Password</label>
+                <input
+                  class="form-control"
+                  type="password"
+                  required=""
+                  id="password"
+                  placeholder="Enter your password"
+                />
+              </div>
+
+              <div class="mb-3">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="customCheck1"
+                  />
+                  <label class="form-check-label" for="customCheck1"
+                    >I accept <a href="#">Terms and Conditions</a></label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button
+                class="btn btn-light-info text-info font-medium"
+                type="submit"
+                (click)="modal.dismiss('Cross click')"
+              >
+                Sign Up Free
+              </button>
+            </div>
+          </form>
+        </ng-template>
+        <!-- modal 3 -->
+        <ng-template #modalScrollLong let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Scrolling Long Content Modal</h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p><p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+        <!-- modal 4 -->
+        <ng-template #modalScrollLongInside let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Scrolling Content Inside Modal</h4>
+            <button
+              type="button"
+              class="btn text-danger close"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i-feather name="x"></i-feather>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p><p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              fugiat excepturi exercitationem atque aperiam quas quisquam harum,
+              accusamus molestias corporis repellendus, accusantium perferendis,
+              reiciendis nemo dolore distinctio a expedita ducimus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="modal.close('Save click')"
+            >
+              Accept
+            </button>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+    <div class="card">
+      <div class="p-3">
+        <h4 class="card-title mb-0">Stack Modal</h4>
+      </div>
+      <div class="card-body border-top">
+        <app-stacked-modal class="w-100"></app-stacked-modal>
+      </div>
+      
+    </div>
+  </div>
+</div>
