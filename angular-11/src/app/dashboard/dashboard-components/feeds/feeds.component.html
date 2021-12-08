@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Feeds</h4>
+        <div class="feed-widget">
+            <ul class="list-style-none feed-body m-0 p-b-20">
+                <li class="feed-item" *ngFor='let feed of feeds'>
+                    <div class="feed-icon {{feed.class}}">
+                        <i class={{feed.icon}}></i>
+                    </div>
+                    {{feed.task}}
+                    <span class="ml-auto font-12 text-muted"> {{feed.time}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
