@@ -1,7 +1,7 @@
 <!-- # xtreme-admin-angular 13, 12, 11, 10, 9, 8 and 7 lite -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/dashboard">Xtreme Angular 13 Admin Lite</a>
+  <a href="https://wrappixel.com/demos/free-admin-templates/xtreme-angular-lite/angular/dashboard">Xtreme Angular 16 Admin Lite</a>
 </h1>
 
 <!-- Main image of Template -->
@@ -104,7 +104,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2021 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2023 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
   </li>
   <li>
     <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
@@ -118,7 +118,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-angular-admin-y.jpg" />
 </a>
 <p>
-   Checkout our premium version of Xtreme Angular 13 Admin for lots more features and ready to use page templates.<br>
+   Checkout our premium version of Xtreme Angular 16 Admin for lots more features and ready to use page templates.<br>
    <a href="https://demos.wrappixel.com/premium-admin-templates/angular/xtreme-angular/main/dashboard/classic">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/">Download</a>
 </p>
 
@@ -127,7 +127,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <ul>
 <li><a href="https://www.wrappixel.com/templates/category/admin-template/">Free Admin Templates</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/">Bootstrap Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">Bootstrap 4 Dashboard</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">Bootstrap 5 Dashboard</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/angular-templates/">Angular Material Template</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/react-templates/">React Templates</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue Templates</a> from WrapPixel</li>
