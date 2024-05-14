@@ -206,7 +206,7 @@ $display-font-sizes: (
 // 
 $card-border-width: 0px !default;
 $card-border-color: transparent !default;
-$card-border-radius: 4px !default;
+$card-border-radius: 7px !default;
 $card-box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%) !default;
 $card-bg: $white;
 
@@ -266,6 +266,7 @@ $dropdown-item-padding-y: 0.65rem !default;
 $dropdown-border-color: $gray-200;
 $dropdown-divider-bg: $gray-100;
 $dropdown-bg: $white;
+$dropdown-border-radius: 7px;
 
 // 
 // Progressbars

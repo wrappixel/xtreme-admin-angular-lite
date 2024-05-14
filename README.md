@@ -1,4 +1,4 @@
-# <a href="https://demos.wrappixel.com/free-admin-templates/angular/xtreme-angular-free/angular/dashboard">Xtreme Admin Angular Free</a>
+# <a href="https://xtreme-angular-free.netlify.app/dashboard">Xtreme Admin Angular Free</a>
 Xtreme Angular Admin Dashboard
 
 <!-- Main image of Template -->
@@ -19,15 +19,15 @@ Xtreme Angular Admin Dashboard
 <tbody>
 <tr>
   <td>
-    <a href="https://demos.wrappixel.com/free-admin-templates/angular/xtreme-angular-free/angular/dashboard">Live Preview</a>
+    <a href="https://xtreme-angular-free.netlify.app/dashboard">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.wrappixel.com/free-admin-templates/angular/xtreme-angular-free/landingpage/index.html">Live Preview</a>
+  <a href="https://xtreme-angular-main.netlify.app/dashboard/classic">Live Preview</a>
   </td>
 </tr>
 <tr>
   <td>
-      <a href="https://www.wrappixel.com/templates/adminpro-vuetify-admin-lite/">Download Now</a>
+      <a href="https://www.wrappixel.com/templates/xtreme-angular-lite/">Download Now</a>
   </td>
   <td>
     <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/">Purchase Now</a>
@@ -139,7 +139,7 @@ Xtreme Angular Admin Dashboard
 </a>
 <p>
   Checkout our premium version of Xtreme Angular Admin Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://demos.wrappixel.com/free-admin-templates/angular/xtreme-angular-free/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/">Download</a>
+  <a href="https://xtreme-angular-main.netlify.app/dashboard/classic">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/">Download</a>
 </p>
 
 <!-- Versions of Template -->
