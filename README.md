@@ -30,7 +30,7 @@ Xtreme Angular Admin Dashboard
       <a href="https://www.wrappixel.com/templates/xtreme-angular-lite/">Download Now</a>
   </td>
   <td>
-    <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/">Purchase Now</a>
+    <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/?ref=33">Purchase Now</a>
   </td>
 </tr>
 <tr>
@@ -134,12 +134,12 @@ Xtreme Angular Admin Dashboard
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://www.wrappixel.com/templates/xtreme-angular-admin/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-angular-admin-y.jpg" alt="">
+<a target="_blank" href="https://www.wrappixel.com/templates/xtreme-angular-admin/?ref=33">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/xtreme-angular-admin-wpn.jpg" alt="">
 </a>
 <p>
   Checkout our premium version of Xtreme Angular Admin Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://xtreme-angular-main.netlify.app/dashboard/classic">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/">Download</a>
+  <a href="https://xtreme-angular-main.netlify.app/dashboard/classic">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/?ref=33">Download</a>
 </p>
 
 <!-- Versions of Template -->
@@ -147,7 +147,7 @@ Xtreme Angular Admin Dashboard
 <table>
 <thead>
 <tr>
-<th>Bootstrap</th>
+<th>Angular</th>
 <th>React Js</th>
 <th>Next Js</th>
 <th>Vue Js</th>
@@ -156,22 +156,22 @@ Xtreme Angular Admin Dashboard
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/xtremeadmin/" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-bootstrap-admin-y.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/?ref=33" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/xtreme-angular-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-react-admin-template-y.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/xtreme-react-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/xtreme-nextjs-admin-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/02/xtreme-nextjs-image.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/xtreme-nextjs-admin-dashboard/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/xtreme-nextjs-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/xtreme-vuesax-admin-pro/" rel="nofollow" width="150px">
+  <a href="https://www.wrappixel.com/templates/xtreme-vuesax-admin-pro/?ref=33" rel="nofollow" width="150px">
     <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-vuesax-admin-y.jpg" alt="" style="max-width:150px;">
   </a>
 </td>

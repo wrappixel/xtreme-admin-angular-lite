@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800'); 
 
 //landing page style
 .font-16{
@@ -11,6 +11,8 @@
 .live-box {
     position: relative;
     border:1px solid $gray-200;
+    height: 275px;
+    overflow: hidden;
     .overlay {
         position: absolute;
         width: 100%;
