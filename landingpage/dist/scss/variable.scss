@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800'); 
+
 // Custom Variables
 /*Theme Colors*/
 
@@ -141,8 +143,7 @@ $grid-gutter-width: 20px !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 $font-size-base: 0.875rem;
-$font-family-sans-serif: 'Nunito',
-sans-serif !default;
+$font-family-sans-serif: 'Nunito Sans', sans-serif !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-medium: 500 !default;

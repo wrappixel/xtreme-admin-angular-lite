@@ -4,6 +4,7 @@ Template Name: Material-Pro Admin Template
 Author: Niravjoshi / Wrappixel
 File: scss
 */
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800");
 /*Theme Colors*/
 /*Topbar Colors*/
 /*Sidebar Colors*/
@@ -11,7 +12,6 @@ File: scss
 /*Shadow*/
 /*transitions*/
 /*Dark transparent bg*/
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800");
 @import "icons/material-design-iconic-font/css/materialdesignicons.min.css";
 /*******************************/
 /*******************************/
@@ -80,7 +80,7 @@ File: scss
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Nunito Sans", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -109,7 +109,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5790,7 +5790,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5892,7 +5892,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
